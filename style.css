@@ -1,0 +1,102 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.hero,footer {
+    background-color: #1f2937;
+    gap: 8px;
+    padding: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 120px;
+    max-height: 120px;
+    background-size: auto;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.link,.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.firstLayer {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.leftOne {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightOne {
+    display: flex;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.infoItems {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.picture1 {
+    flex-direction: column;
+    gap: 8px;
+}
+
+.picturesItems {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.infoTitle {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quoteItem{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color : #1F2937;
+}
